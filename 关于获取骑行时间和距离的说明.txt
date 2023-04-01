@@ -1,0 +1,5 @@
+关于获取骑行时间和数据的说明
+骑行距离和时间的数据从高德开放平台https://lbs.amap.com/获取。高德开放平台开发支持中的Web服务API对所有用户开放，其中路径规划API中提供骑行查询的计算接口，可以返回JSON格式的查询数据。我们注册账号，创建了Web服务API应用，获取了请求服务权限标识key。调用骑行路径规划，规划时不会考虑路况，但考虑天桥、单行线、封路等情况。请求参数和返回结果参数说明在网页中有详细介绍。我们在多个返回路径中选择速度优先的一条路径，返回其距离长度和所需时间。
+
+Description about how to get bicycling distance and time.
+The data of bicycling distance and time is obtained from Gaode Open Platform (https://lbs.amap.com/). The development support in web service API of Gaode Open Platform is open to everyone. The route planning API provides a calculated interface for bicycling query, which can return data in JSON format. We registered an account and created a web service API application, then we obtained the request service permission identification (key). It doesn’t consider the traffic roads, but the overbridges, one-way roads, and road closures when we call the bicycling route planning. The request parameters and the returned parameters are described in detail on the webpage. We choose a speed-priority route among the returned routes and return its distance and required time.
